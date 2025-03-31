@@ -23,7 +23,7 @@
     		"type": "bool",
     		"name": "supermode",
     		"description": "very fast rotating",
-    		"default": true},
+    		"default": false},
 		"supermode-speed": {
 			"enable-if": "supermode",
     		"type": "int",
