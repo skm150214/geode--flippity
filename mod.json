@@ -1,0 +1,40 @@
+{
+	"geode": "4.3.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "skm150214.flippity",
+	"name": "Flippity",
+	"version": "v1.0.0",
+	"developer": "SKM150214",
+	"description": "hehehe april fools",
+	"settings": {
+		"supermode": {
+    		"type": "bool",
+    		"name": "supermode",
+    		"description": "very fast rotating",
+    		"default": true},
+		"supermode-speed": {
+			"enable-if": "supermode",
+    		"type": "int",
+    		"name": "supermode speed",
+    		"description": "how speedy is supermode finna be",
+    		"default": 5,
+    		"min": 2,
+    		"max": 20},
+		"time": {
+    		"type": "float",
+    		"name": "time /s",
+    		"description": "speed of rotation",
+    		"default": 1,
+    		"min": 0.2,
+    		"max": 10}
+
+
+    
+
+	}
+}
