@@ -11,6 +11,10 @@
 	"version": "v1.0.0",
 	"developer": "SKM150214",
 	"description": "hehehe april fools",
+		"dependencies": [{
+            "id": "geode.node-ids",
+            "version": ">=v1.20.0",
+            "importance": "required"}],
 	"settings": {
 		"supermode": {
     		"type": "bool",
